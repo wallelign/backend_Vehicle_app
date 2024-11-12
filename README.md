@@ -73,13 +73,13 @@ This will run the server using [Nodemon](https://www.npmjs.com/package/nodemon) 
 
 Here are some example API endpoints your backend might have:
 
-// Income routes
-`post /income` Adds a new income to the database.
-`get /income` Fetches all incomes from the database.
-`get /income/current` Fetches current month income from the database.
-`get /income/:id` Fetches income from the database.
-`put /income/:id` Updates an income by ID.
-`delete /income/:id` Deletes an income by ID.
+    // Income routes
+    `post /income` Adds a new income to the database.
+    `get /income` Fetches all incomes from the database.
+    `get /income/current` Fetches current month income from the database.
+    `get /income/:id` Fetches income from the database.
+    `put /income/:id` Updates an income by ID.
+    `delete /income/:id` Deletes an income by ID.
 
     // route Balance
     `get /balance` Fetches net balance from the database.
