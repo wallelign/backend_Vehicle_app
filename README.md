@@ -1,10 +1,11 @@
 ﻿# backend_finance_tracking_app
-Here’s a README template for your backend project, which is built using Node.js, Express.js, and MongoDB. You can customize it to fit your specific project needs:
 
-```markdown
+Here’s a README template for the backend project, which is built using Node.js, Express.js, and MongoDB.
+
+````markdown
 # Backend API - Node.js, Express, MongoDB
 
-This is the backend API for [Your Project Name]. It is built using Node.js, Express.js, and MongoDB to handle server-side operations, including database connections and API routes.
+This is the backend API for expense tracking app. It is built using Node.js, Express.js, and MongoDB to handle server-side operations, including database connections and API routes.
 
 ## Features
 
@@ -27,9 +28,10 @@ Before running the application, make sure you have the following installed:
 Clone the project repository to your local machine.
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
+git clone https://github.com/wallelign/backend_finance_tracking_app.git
+cd backend_finance_tracking_app
 ```
+````
 
 ### 2. Install Dependencies
 
@@ -52,6 +54,7 @@ PORT=5000
 - **PORT**: The port on which your server will run (default is `5000`).
 
 > **Note**: If you are using MongoDB Atlas, your URL will look like this:
+>
 > ```env
 > MONGODB_URL=mongodb+srv://<username>:<password>@cluster0.mongodb.net/your-database-name?retryWrites=true&w=majority
 > ```
@@ -70,11 +73,24 @@ This will run the server using [Nodemon](https://www.npmjs.com/package/nodemon) 
 
 Here are some example API endpoints your backend might have:
 
-- `GET /api/items` - Fetches all items from the database.
-- `POST /api/items` - Adds a new item to the database.
-- `GET /api/items/:id` - Fetches an item by ID.
-- `PUT /api/items/:id` - Updates an item by ID.
-- `DELETE /api/items/:id` - Deletes an item by ID.
+// Income routes
+`post /income` Adds a new income to the database.
+`get /income` Fetches all incomes from the database.
+`get /income/current` Fetches current month income from the database.
+`get /income/:id` Fetches income from the database.
+`put /income/:id` Updates an income by ID.
+`delete /income/:id` Deletes an income by ID.
+
+    // route Balance
+    `get /balance` Fetches net balance from the database.
+
+    // Expense routes
+    `post /expense` Adds a new expense to the database.
+    `get /expense` Fetches all expenses from the database.
+    `get /expense/current` Fetches current month expense from the database.
+    `get /expense/:id` Fetches expense from the database.
+    `put /expense/:id` Updates an expense by ID.
+    `delete /expense/:id` Deletes an expense by ID.
 
 ## Built With
 
@@ -95,6 +111,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 Feel free to open an issue or submit a pull request if you have suggestions for improvements or bugs.
+
 ```
 
 ### Key Sections Explained:
@@ -106,3 +123,4 @@ Feel free to open an issue or submit a pull request if you have suggestions for 
 5. **License and Acknowledgments**: These sections are to acknowledge open-source technologies used in your project.
 
 You can now copy and paste this into your `README.md` file, and modify it as needed to reflect any additional details or features unique to your project.
+```
