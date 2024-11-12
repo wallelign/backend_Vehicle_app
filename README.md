@@ -99,28 +99,9 @@ Here are some example API endpoints your backend might have:
 - [MongoDB](https://www.mongodb.com/)
 - [Mongoose](https://mongoosejs.com/) (MongoDB ODM)
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - [Express.js](https://expressjs.com/) for providing the framework to build the API.
 - [MongoDB](https://www.mongodb.com/) for providing a NoSQL database for our data storage.
 
 ---
-
-Feel free to open an issue or submit a pull request if you have suggestions for improvements or bugs.
-
-```
-
-### Key Sections Explained:
-
-1. **Prerequisites**: This section lists the dependencies such as Node.js and MongoDB that need to be installed.
-2. **Getting Started**: These steps explain how to clone the repo, install dependencies, and configure environment variables.
-3. **API Endpoints**: A placeholder section where you can describe the key routes or API endpoints your backend exposes.
-4. **Built With**: Lists the technologies used in the backend (Node.js, Express, MongoDB, and Mongoose).
-5. **License and Acknowledgments**: These sections are to acknowledge open-source technologies used in your project.
-
-You can now copy and paste this into your `README.md` file, and modify it as needed to reflect any additional details or features unique to your project.
-```
