@@ -46,17 +46,17 @@ npm install
 Create a `.env` file in the root directory of your project and add the following environment variables:
 
 ```env
-MONGODB_URL=mongodb://localhost:27017/your-database-name
+MONGO_URI=mongodb://localhost:27017/your-database-name
 PORT=5000
 ```
 
-- **MONGODB_URL**: The connection string for your MongoDB database. If using MongoDB Atlas or a cloud instance, replace this with the appropriate URL.
+- **MONGO_URI**: The connection string for your MongoDB database. If using MongoDB Atlas or a cloud instance, replace this with the appropriate URL.
 - **PORT**: The port on which your server will run (default is `5000`).
 
 > **Note**: If you are using MongoDB Atlas, your URL will look like this:
 >
 > ```env
-> MONGODB_URL=mongodb+srv://<username>:<password>@cluster0.mongodb.net/your-database-name?retryWrites=true&w=majority
+> MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/your-database-name?retryWrites=true&w=majority
 > ```
 
 ### 4. Run the Application
